@@ -27,7 +27,7 @@ shows market avg. bitcoin price
 
 ## jabber_contacts.sh
 This script was meant to run on a MacOS X Server with an iChat Server.
-It would create automatic roosters for all the accounts from OpenDirectory Groups.
+It would create automatic roster for all the accounts from OpenDirectory Groups.
 
 ## ldap-to-sql.py
 The scripts gets login names and their ObjectGUID from an Active Directory server
