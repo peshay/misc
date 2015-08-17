@@ -2,27 +2,27 @@
 some miscellaneous scripts
 ## functions.zsh
 some of my functions I use with zsh
-- cmdfu
+- '''cmdfu'''
 searches the commandlinefu.com database for a specific pattern
-- man2pdf
+- '''man2pdf'''
 to translate a manpage to a PDF file on MacOS
-- biggest
+- '''biggest'''
 shows the biggest file/folder sorted by size
-- showtree
+- '''showtree'''
 draws a directory tree
-- hasip
+- '''hasip'''
 Enter an IP and discover via Bonjour on your local network the bonjour name
-- getCert
+- '''getCert'''
 gets a SSL certificate from a website
-- kolacoins
+- '''kolacoins'''
 translates current bitcoin price to Kola Mate price of 0.66c per bottle
-- bitcoins
+- '''bitcoins'''
 shows current bitcoin - EUR rate
-- btc_sell
+- '''btc_sell'''
 shows best markets to sell bitcoins
-- btc_buy
+- '''btc_buy'''
 shows bets markets to buy bitcoins
--btc_markets
+- '''btc_markets'''
 shows market avg. bitcoin price
 
 ## jabber_contacts.sh
