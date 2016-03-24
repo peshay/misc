@@ -1,5 +1,8 @@
 # misc
 some miscellaneous scripts
+## bash_completion.patch
+A patch for homebrew installed bash-completion 1.3 so ssh completion from .ssh/config hosts will work more reliable.
+
 ## functions.zsh
 some of my functions I use with zsh
 - **cmdfu**
