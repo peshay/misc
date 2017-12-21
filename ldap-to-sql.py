@@ -19,8 +19,9 @@ try:
     l.set_option(ldap.OPT_REFERRALS, 0)
 
     bind = l.simple_bind_s(USERNAME, PASS)
-
-    base = "cn=Users,dc=example,dc=com"
+    base = "cn=Users"
+    for d in DOMAIN.split("."):
+        base += ",dc={}".format(d)
     criteria = "(cn=*)"
     attributes = ['sAMAccountName', 'ObjectGUID']
     result = l.search_s(base, ldap.SCOPE_SUBTREE, criteria, attributes)
@@ -34,5 +35,3 @@ for item in results:
     objectGUIDplain = objectGUID.translate(None, '-')
     sAMAccountName = item.get('sAMAccountName')
     print "update users set id_extern = '" + objectGUIDplain + "' where login = " + str(sAMAccountName).strip('[]') + ";"
-
-
