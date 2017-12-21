@@ -1,5 +1,13 @@
 # misc
 some miscellaneous scripts
+
+## smarthome_bak.sh
+To backup the data of some of my SmartHome tools to Google Drive.
+
+## influx_remove_unrealistic_values.sh
+As sometimes my sensors measure unrealistic values, I'd like to remove these measures from influxdb.
+So I look in my influx 'db' for probes with 'temperature' that have measurements > '50'
+
 ## bash_completion.patch
 A patch for homebrew installed bash-completion 1.3 so ssh completion from .ssh/config hosts will work more reliable.
 
